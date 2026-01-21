@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Home Lab Specifics ---
+
+# Home Assistant Secrets (CRITICAL)
+secrets.yaml
+known_hosts
+
+# Databases (Too big and contain personal history)
+*.db
+home-assistant_v2.db
+
+# Docker Environment Variables (Often contain passwords)
+.env
+
+# Log files
+*.log
+
+# SSH Keys (Just in case)
+id_rsa
+id_rsa.pub
