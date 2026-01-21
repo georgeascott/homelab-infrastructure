@@ -6,7 +6,7 @@ This repository documents the configuration and infrastructure of a self-hosted 
 The system runs on a Linux-based server utilizing **Docker** for containerization, ensuring distinct separation of services and ease of backup/restoration.
 
 ## Architecture
-The system is designed with a service-oriented architecture, using a reverse proxy to manage secure external access to internal services.
+The system is designed with a service-oriented architecture, leveraging Nabu Casa to provide an encrypted, zero-configuration tunnel for secure external access, while maintaining strict local control over internal services.
 
 ```mermaid
 graph TD
