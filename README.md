@@ -35,7 +35,7 @@ graph TD
 * **AI & Vision:** Frigate NVR (YOLOv9-s-320 Model)
 * **3D Rendering:** Flamenco (Blender Render Farm)
 * **Hardware:** **Dual Nvidia RTX 2060s** (Parallel Configuration)
-* * **Remote Access:** Nabu Casa (Home Assistant Cloud)
+* **Remote Access:** Nabu Casa (Home Assistant Cloud)
 
 ## Key Components
 
